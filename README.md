@@ -1,3 +1,5 @@
+![ghibli](./studio-ghibli.png)
+
 # Studio Ghibli GitHub Theme (Firefox Extension)
 
 A Firefox browser extension that transforms the GitHub interface with a custom theme inspired by Studio Ghibli.
