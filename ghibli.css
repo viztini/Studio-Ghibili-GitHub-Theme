@@ -1,0 +1,128 @@
+/* Ghibli-Dream - A Studio Ghibli inspired theme for GitHub */
+
+/* Main body and background */
+body {
+    background-color: #ebf8ff !important; /* A light, airy, sky blue */
+    color: #4a5568 !important; /* A gentle, dark gray/brown */
+}
+
+/* Header */
+.header {
+    background-color: #8b5cf6 !important; /* A warm, earthy brown */
+    border-bottom: 1px solid #e2e8f0 !important; /* A soft, cloud-like gray */
+}
+
+.header-logo-invertocat {
+    color: #ebf8ff !important; /* A light, airy, sky blue */
+}
+
+/* Links */
+a {
+    color: #48bb78 !important; /* A vibrant, forest green */
+}
+
+a:hover {
+    color: #8b5cf6 !important; /* A warm, earthy brown */
+}
+
+/* Buttons */
+.btn {
+    background-color: #8b5cf6 !important; /* A warm, earthy brown */
+    color: #ebf8ff !important; /* A light, airy, sky blue */
+    border: 1px solid #e2e8f0 !important; /* A soft, cloud-like gray */
+}
+
+.btn:hover {
+    background-color: #48bb78 !important; /* A vibrant, forest green */
+}
+
+/* Repository header */
+.repohead {
+    background-color: #e2e8f0 !important; /* A soft, cloud-like gray */
+    border-bottom: 1px solid #8b5cf6 !important; /* A warm, earthy brown */
+}
+
+/* Borders */
+.border-bottom {
+    border-bottom: 1px solid #e2e8f0 !important;
+}
+
+.border-top {
+    border-top: 1px solid #e2e8f0 !important;
+}
+
+/* Input fields */
+.form-control {
+    background-color: #e2e8f0 !important; /* A soft, cloud-like gray */
+    color: #4a5568 !important; /* A gentle, dark gray/brown */
+    border: 1px solid #8b5cf6 !importan; /* A warm, earthy brown */
+}
+
+/* Accent color for specific elements (e.g., counters, highlights) */
+.Counter {
+    background-color: #48bb78 !important; /* A vibrant, forest green */
+    color: #ebf8ff !important; /* A light, airy, sky blue */
+}
+
+/* Additional elements for a more complete theme */
+
+/* Navigation tabs */
+.UnderlineNav-item.selected {
+    border-bottom-color: #48bb78 !important; /* A vibrant, forest green for selected tab */
+    color: #4a5568 !important;
+}
+
+.UnderlineNav-item {
+    color: #4a5568 !important;
+}
+
+/* Code blocks */
+.blob-wrapper, .highlight {
+    background-color: #e2e8f0 !important; /* A soft, cloud-like gray for code blocks */
+    border: 1px solid #8b5cf6 !important;
+}
+
+/* Issues/PRs status labels */
+.State--open {
+    background-color: #48bb78 !important; /* A vibrant, forest green */
+    color: #ebf8ff !important;
+}
+
+.State--closed {
+    background-color: #8b5cf6 !important; /* A warm, earthy brown for closed status */
+    color: #ebf8ff !important;
+}
+
+.State--merged {
+    background-color: #e2e8f0 !important; /* A soft, cloud-like gray for merged status */
+    color: #4a5568 !important;
+}
+
+/* Sidebar navigation */
+.Box-row.navigation-item.selected {
+    background-color: #e2e8f0 !important;
+    border-left: 2px solid #48bb78 !important;
+}
+
+.Box-row.navigation-item {
+    color: #4a5568 !important;
+}
+
+/* Flash messages */
+.flash-warn {
+    background-color: #f6e05e !important; /* A bold, jazzy yellow */
+    color: #1a202c !important;
+    border-color: #c53030 !important;
+}
+
+.flash-error {
+    background-color: #c53030 !important; /* Retro, muted red */
+    color: #f7fafc !important;
+    border-color: #4a5568 !important;
+}
+
+.flash-success {
+    background-color: #48bb78 !important; /* A vibrant, forest green */
+    color: #ebf8ff !important;
+    border-color: #e2e8f0 !important;
+}

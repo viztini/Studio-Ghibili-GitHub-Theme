@@ -1,0 +1,1 @@
+console.log("Studio Ghibli GitHub Theme content script loaded.");

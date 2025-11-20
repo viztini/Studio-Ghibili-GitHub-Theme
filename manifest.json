@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Studio-Ghibli-GitHub-Theme",
+  "version": "1.0",
+  "description": "A Studio Ghibli inspired theme for GitHub.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "css": ["ghibli.css"]
+    }
+  ]
+}
